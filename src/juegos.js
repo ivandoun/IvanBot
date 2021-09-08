@@ -13,7 +13,7 @@ Prueba tu suerte en el medidor de fan de cuties 😱
 
 _*En futuras versiones colocare mas juegos :)*_
      
-ву ivandoun`
+𝒃𝒚 𝒊𝒗𝒂𝒏𝒅𝒐𝒖𝒏`
 
 }
 

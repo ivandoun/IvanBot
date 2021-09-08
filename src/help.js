@@ -1,11 +1,11 @@
 const help = (prefix) => {
 	return `
 
-⌜ *IvanBot by ivandoun* ⌟  
+⌜ *𝑰𝒗𝒂𝒏𝒅𝒐𝒖𝒏𝑩𝒐𝒕 𝒃𝒚 𝒊𝒗𝒂𝒏𝒅𝒐𝒖𝒏* ⌟  
 
 ◉ *INFORMACION*
    ○ Comando: ⌜ ${prefix} ⌟
-   ○ Creador: ivandoun 
+   ○ Creador: 𝒊𝒗𝒂𝒏𝒅𝒐𝒖𝒏 
    ○ Instagram: https://www.instagram.com/ivandoun
 
 
@@ -25,7 +25,7 @@ Interactua con el bot
 ○ ${prefix}juegos
 Diviértete con tus amigos :)
 ○ ${prefix}desmenu
-Descargar musica ( videos próximamente )
+Descargar musica y videos
 ○ ${prefix}version
 Conoce la versión de tu bot
 ○ ${prefix}welmenu
@@ -68,11 +68,19 @@ Registrate con el comando ${prefix}daftar y tu nombre
 
 ◉ *GRUPOS*
   ║
+  ╠ ○ ${prefix}unir
+  ╠ Unir a una persona al grupo
+  ╠ ○ ${prefix}fgc
+  ╠ Cambiar foto del grupo
+  ╠ ○ ${prefix}ngc
+  ╠ Cambiar nombre del grupo
+  ╠ ○ ${prefix}dgc
+  ╠ Cambiar descripcion del grupo
   ╠ ○ ${prefix}closegc
   ╠ Cerrar el grupo solo admins
   ╠ ○ ${prefix}opengc
   ╠ Abrir grupo solo admins
-  ╠ ○ ${prefix}kickmenu
+  ╠ ○ ${prefix}kick
   ╠ Eliminar a un miembro 
   ╠ ○ ${prefix}promote
   ╠ Dar admin a un miembro
@@ -97,8 +105,10 @@ Para activar los NSFW coloque el siguiente comando ${prefix}nsfw 1 y para desact
 No te olvides de seguirme en instagram flaco ;)
 
 
-ву ivandoun
+𝒃𝒚 𝒊𝒗𝒂𝒏𝒅𝒐𝒖𝒏
 
+
+⌜ *ごきげんよう :)* ⌟ 
 `
 }
 

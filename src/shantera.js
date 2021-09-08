@@ -2,6 +2,8 @@ const shantera = (prefix, pushname) => {
     return `*Palabras especificas para que el bot interactue con ustedes*
 
 
+Hora del sexito
+Pongan cuties
 Fiesta del admin
 Admin party
 Viernes
@@ -44,7 +46,7 @@ Enano
 
 _*Ojito escribe tal y como esta en el mensaje*_
 
-ву ivandoun`
+𝒃𝒚 𝒊𝒗𝒂𝒏𝒅𝒐𝒖𝒏`
 
 }
 
