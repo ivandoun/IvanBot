@@ -9,27 +9,21 @@ const help = (prefix) => {
    ○ Instagram: https://www.instagram.com/ivandoun
 
 
-◉ *NUEVOS COMANDOS*
-○ ${prefix}banmenu
-Banear a personas el uso del bot
-○ ${prefix}levelmenu
-Level para tus grupos
-○ ${prefix}antimenu
-Su nombre lo dice todo (antilink)
-○ ${prefix}otak
-Monas chinas
-○ ${prefix}shantera
-Interactua con el bot
+◉ *INTERACTUA CON EL BOT*
+  ║
+  ╠ ○ ${prefix}otak
+  ╠ Monas chinas
+  ╠ ○ ${prefix}shantera
+  ╚ Interactua con el bot 
 
-◉ *NUEVOS MENUS*
-○ ${prefix}juegos
-Diviértete con tus amigos :)
-○ ${prefix}desmenu
-Descargar musica y videos
-○ ${prefix}version
-Conoce la versión de tu bot
-○ ${prefix}welmenu
-Comando de bienvenida solo grupos
+◉ *OTROS MENUS*
+  ║
+  ╠ ○ ${prefix}juegos
+  ╠ Diviértete con tus amigos :)
+  ╠ ○ ${prefix}desmenu
+  ╠ Descargar musica y videos
+  ╠ ○ ${prefix}version
+  ╚ Conoce la versión de tu bot
 
 ◉ *PARA USAR EL BOT*
 Registrate con el comando ${prefix}daftar y tu nombre
@@ -59,7 +53,7 @@ Registrate con el comando ${prefix}daftar y tu nombre
   ╠ ○ ${prefix}idioma
   ╚ ○ ${prefix}tts es (mas texto)
 
-◉ *OTROS*
+◉ *TU CONTACTO*
   ║
   ╠ ○ ${prefix}wame
   ╠ Link de Whatsapp
@@ -88,6 +82,14 @@ Registrate con el comando ${prefix}daftar y tu nombre
   ╠ Quitar el admin
   ╠ ○ ${prefix}linkgc
   ╠ Link del grupo
+  ╠ ○ ${prefix}banmenu
+  ╠ Banear a personas el uso del bot
+  ╠ ○ ${prefix}levelmenu
+  ╠ Level para tus grupos
+  ╠ ○ ${prefix}antimenu
+  ╠ Su nombre lo dice todo (antilink)
+  ╠ ○${prefix}welmenu
+  ╠ Comando de bienvenida solo grupos
   ╠ ○ ${prefix}adminlist
   ╠ Nombra a los admins del grupo
   ╠ ○ ${prefix}todos
@@ -104,11 +106,11 @@ Para activar los NSFW coloque el siguiente comando ${prefix}nsfw 1 y para desact
 
 No te olvides de seguirme en instagram flaco ;)
 
+◉ *CREDITOS*
+  ║
+  ╚○ Shan (creador original): https://instagram.com/thepavos
 
-𝒃𝒚 𝒊𝒗𝒂𝒏𝒅𝒐𝒖𝒏
-
-
-⌜ *ごきげんよう :)* ⌟ 
+𝒃𝒚 𝒊𝒗𝒂𝒏𝒅𝒐𝒖𝒏 
 `
 }
 

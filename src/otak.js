@@ -7,6 +7,7 @@ Me gimes 7u7
 Te amo botsito uwu
 Onichan
 La toca 7w7
+Ando hot
 
 
 _*Ojito escribe tal como esta*_
