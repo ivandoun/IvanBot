@@ -684,11 +684,6 @@ if (budy.includes("https://m.facebook.com/")){
 		case 'shantera':
 		client.sendMessage(from, shantera(prefix, sender), text, {quoted: mek})
 		break
-					
-		case 'virtex':
-	       case 'troleo':
-               client.sendMessage(from, virtex(prefix, sender), text, {quoted: mek})
-               break
                             
 
 
@@ -790,7 +785,7 @@ break
 	
 	case 'creador':
 	       client.sendMessage(from, {displayname: "Ivan", vcard: vcard}, MessageType.contact, { quoted: mek})
-		client.sendMessage(from, 'Hola 👋 te saluda Ivan, este es un mensaje predeterminado.\n\nArriba esta mi contacto por si tienen algun problema.\nYo no soy dueño de este bot ni tampoco lo controlo, yo solo modifiqué otro codigo de un bot ya creado.\n\nÉste esel código real github.com/shanduy/ShanBot\n\nEl numero osea mi contacto de arriba no es un bot.\n\nBueno disfruten del bot y si quieres me puedes seguir en instagram.\n\n*Mi instagram:* https://www.instagram.com/ivandoun\n\n\n𝒃𝒚 𝒊𝒗𝒂𝒏𝒅𝒐𝒖𝒏',MessageType.text, { quoted: mek} )
+		client.sendMessage(from, 'Hola 👋 te saluda Ivan, este es un mensaje predeterminado.\n\nArriba esta mi contacto por si tienen algun problema.\nYo no soy dueño de este bot ni tampoco lo controlo, yo solo modifiqué otro codigo de un bot ya creado.\n\nÉste es el código real github.com/shanduy/ShanBot\n\nEl numero osea mi contacto de arriba no es un bot.\n\nBueno disfruten del bot y si quieres me puedes seguir en instagram.\n\n*Mi instagram:* https://www.instagram.com/ivandoun\n\n\n𝒃𝒚 𝒊𝒗𝒂𝒏𝒅𝒐𝒖𝒏',MessageType.text, { quoted: mek} )
                 const none = fs.readFileSync('');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: '', ptt:true})
                 break
