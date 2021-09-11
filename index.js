@@ -104,6 +104,7 @@ const antinsta = JSON.parse(fs.readFileSync('./src/antinsta.json'))
 const antikwai = JSON.parse(fs.readFileSync('./src/antikwai.json'))
 const antiwa = JSON.parse(fs.readFileSync('./src/antiwa.json'))
 const antidiscord = JSON.parse(fs.readFileSync('./src/antidiscord.json'))
+const antitube = JSON.parse(fs.readFileSync('./src/antitube.json'))
 
 /******FIN DE ARCHIVOS ANTILINK POR SHANDUY******/
 
@@ -347,6 +348,7 @@ async function starts() {
 			const isBanned = ban.includes(sender)
 			const groupName = isGroup ? groupMetadata.subject : ''
 			const isAntiLink = isGroup ? antilink.includes(from) : false
+			const isAntiTube = isGroup ? antitube.includes(from) : false
 			const isAntiDiscord = isGroup ? antidiscord.includes(from) : false
 			const isAntInsta = isGroup ? antinsta.includes(from) : false
 			const isAntiTik = isGroup ? antitik.includes(from) : false
@@ -467,6 +469,22 @@ if (budy.includes("https://m.facebook.com/")){
 		client.updatePresence(from, Presence.composing)
 		var kic = `${sender.split("@")[0]}@s.whatsapp.net`
 		reply(`*LINK DE DISCORD DETECTADO 📢* ${sender.split("@")[0]} Usted sera eliminado de este grupo`)
+		setTimeout( () => {
+			client.groupRemove(from, [kic]).catch((e)=>{reply(`*ERR:* ${e}`)})
+		}, 0)
+		setTimeout( () => {
+			client.updatePresence(from, Presence.composing)
+			reply("Adios mi loco")
+		}, 0)
+	}
+
+	if (budy.includes("https://youtube.com/")){
+		if (!isGroup) return
+		if (!isAntiTube) return
+                if (isGroupAdmins) return reply('Eres un administrador del grupo, así que no te prohibiré el uso de enlaces :)')
+		client.updatePresence(from, Presence.composing)
+		var kic = `${sender.split("@")[0]}@s.whatsapp.net`
+		reply(`*LINK DE YOUTUBE DETECTADO 📢* ${sender.split("@")[0]} Usted sera eliminado de este grupo`)
 		setTimeout( () => {
 			client.groupRemove(from, [kic]).catch((e)=>{reply(`*ERR:* ${e}`)})
 		}, 0)
@@ -667,10 +685,10 @@ if (budy.includes("https://m.facebook.com/")){
 		client.sendMessage(from, shantera(prefix, sender), text, {quoted: mek})
 		break
 					
-		/*case 'virtex':
+		case 'virtex':
 	       case 'troleo':
                client.sendMessage(from, virtex(prefix, sender), text, {quoted: mek})
-               break*/
+               break
                             
 
 
@@ -953,6 +971,27 @@ break
 						reply('Coloque *antimenu para ver los comandos de activación de los antilinks')
 					}
 					break
+
+				case 'antitube':
+                                        if (!isGroup) return reply(mess.only.group)
+					if (!isUser) return reply(mess.only.daftarB)
+					if (!isBotGroupAdmins) return reply(mess.only.Badmin)
+					if (!isGroupAdmins) return reply(mess.only.ownerG)
+					if (args.length < 1) return reply('Coloque *antimenu para ver los comandos de activación de los antilinks')
+					if (Number(args[0]) === 1) {
+						if (isAntiTube) return reply('El antilink de YouTube ya esta activo')
+						antitube.push(from)
+						fs.writeFileSync('./src/antitube.json', JSON.stringify(antitube))
+						reply('❬ ✅ ❭ La funcion de antilink de YouTube esta habilitada en este grupo')
+						client.sendMessage(from,`Atención a todos los miembros activos de este grupo 📣\n\nDesde ahora cualquier participante que envie un link de *YouTube* a este grupo sera expulsado de inmediato\n\n_*Razones: Spam*_`, text)
+					} else if (Number(args[0]) === 0) {
+						antitube.splice(from)
+						fs.writeFileSync('./src/antitube.json', JSON.stringify(antidiscord))
+						reply('❬ ✅ ❭ La funcion de antilink de YouTube esta deshabilitada en este grupo')
+					} else {
+						reply('Coloque *antimenu para ver los comandos de activación de los antilinks')
+					}
+					break	
 				
 				case 'antikwai':
                                         if (!isGroup) return reply(mess.only.group)
@@ -1720,9 +1759,9 @@ break
                   reply(`Tu nariz contra mis bolas`)
                   }
 
-        if (budy.includes(`ola`)) {
-                  reply(`Tu nariz contra mis bolas`)
-                  }
+        // if (budy.includes(`ola `)) {
+        //           reply(`Tu nariz contra mis bolas`)
+        //           }
 
 		if (budy.includes(`Buenos dias`)) {
                   reply(`Buenos Dias trolos de mierda`)
@@ -1736,15 +1775,19 @@ break
                   reply(`De nada padre`)
                   }
 
-		if (budy.includes(`Bien y tu?`)) {
+		// if (budy.includes(`que `)) {
+  //                 reply(`so jaja`)
+  //                 }
+
+  //       if (budy.includes(`Que `)) {
+  //                 reply(`so jaja`)
+  //                 }
+
+        if (budy.includes(`bien y tu`)) {
                   reply(`Opa yazmin te extrañe :(`)
                   }
 
-        if (budy.includes(`bien y tu?`)) {
-                  reply(`Opa yazmin te extrañe :(`)
-                  }
-
-        if (budy.includes(`bien y vos?`)) {
+        if (budy.includes(`bien y vos`)) {
                   reply(`Opa yazmin te extrañe :(`)
                   }
 					
@@ -1935,14 +1978,14 @@ break
         const none = fs.readFileSync('./mp3/gaspi1.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                   }
-		if (budy.startsWith(`So `)) {
-        const none = fs.readFileSync('./mp3/colom1.mp3');
-		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-                  }
-		if (budy.startsWith(`so `)) {
-        const none = fs.readFileSync('./mp3/colom1.mp3');
-		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-                  }
+		// if (budy.startsWith(`So `)) {
+  //       const none = fs.readFileSync('./mp3/colom1.mp3');
+		// client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+  //                 }
+		// if (budy.startsWith(`so `)) {
+  //       const none = fs.readFileSync('./mp3/colom1.mp3');
+		// client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
+  //                 }
         if (budy.startsWith(`No entiendo`)) {
         const none = fs.readFileSync('./mp3/banaenojado.mp3');
 		client.sendMessage(from, none, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
