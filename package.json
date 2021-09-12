@@ -1,5 +1,5 @@
 {
-  "name": "IvandounBot",
+  "name": "shanbot",
   "version": "0.0.2",
   "description": "Only termux",
   "main": "index.js",
@@ -17,7 +17,7 @@
     "whatsapp",
     "bot"
   ],
-  "author": "Ivandoun",
+  "author": "Shan",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.2",
