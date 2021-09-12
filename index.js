@@ -347,7 +347,6 @@ async function starts() {
 			const isBanned = ban.includes(sender)
 			const groupName = isGroup ? groupMetadata.subject : ''
 			const isAntiLink = isGroup ? antilink.includes(from) : false
-			const isAntiTube = isGroup ? antitube.includes(from) : false
 			const isAntiDiscord = isGroup ? antidiscord.includes(from) : false
 			const isAntInsta = isGroup ? antinsta.includes(from) : false
 			const isAntiTik = isGroup ? antitik.includes(from) : false
