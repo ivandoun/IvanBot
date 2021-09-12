@@ -35,16 +35,6 @@ ${prefix}antiface 0
 
 ══════════════
 
-_*Antilink De YouTube*_
-
-*PARA ACTIVAR EL ANTILINK*
-${prefix}antitube 1
-
-*PARA DESACTIVAR EL ANTILINK*
-${prefix}antitube 0
-
-══════════════
-
 _*Antilink De Tik Tok*_
 
 *PARA ACTIVAR EL ANTILINK*
