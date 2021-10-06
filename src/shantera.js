@@ -1,6 +1,7 @@
 const shantera = (prefix, pushname) => {
     return `*Palabras especificas para que el bot interactue con ustedes*
 
+Muchos mensajes
 Helados de 100
 XD
 Te voy a romper todo
@@ -88,4 +89,4 @@ _*Ojito escribe tal y como esta en el mensaje*_
 
 }
 
-exports.shantera = shantera
+exports.interactuar = interactuar

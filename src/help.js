@@ -1,114 +1,114 @@
 const help = (prefix) => {
 	return `
 
-⌜ *𝑰𝒗𝒂𝒏𝒅𝒐𝒖𝒏𝑩𝒐𝒕 𝒃𝒚 𝒊𝒗𝒂𝒏𝒅𝒐𝒖𝒏* ⌟  
+『 *𝑰𝒗𝒂𝒏𝒅𝒐𝒖𝒏𝑩𝒐𝒕 𝒃𝒚 𝒊𝒗𝒂𝒏𝒅𝒐𝒖𝒏* 』
 
-◉ *INFORMACION*
-   ○ Comando: ⌜ ${prefix} ⌟
-   ○ Creador: 𝒊𝒗𝒂𝒏𝒅𝒐𝒖𝒏 
-   ○ Instagram: https://www.instagram.com/ivandoun
+❁ 〘 *INFORMACIÓN* 〙
+   ❀ cσɱαɳ∂σ: ⌜ ${prefix} ⌟
+   ❀ cɾεα∂σɾ: 𝒊𝒗𝒂𝒏𝒅𝒐𝒖𝒏 
+   ❀ เɳรƭαɠɾαɱ: *https://www.instagram.com/ivandoun*
 
-
-◉ *INTERACTUA CON EL BOT*
+❁ 〘 *INTERACTUA CON EL BOT* 〙
   ║
-  ╠ ○ ${prefix}otak
-  ╠ Monas chinas
-  ╠ ○ ${prefix}shantera
-  ╚ Interactua con el bot 
+  ╠ ❀ ${prefix}ᴏᴛᴀᴋ
+  ╠ *Monas chinas*
+  ╠ ❀ ${prefix}ɪɴᴛᴇʀᴀᴄᴛᴜᴀʀ
+  ╚ *Interactua con el bot*
 
-◉ *OTROS MENUS*
+❁ 〘 *OTROS MENUS* 〙
   ║
-  ╠ ○ ${prefix}juegos
-  ╠ Diviértete con tus amigos :)
-  ╠ ○ ${prefix}desmenu
-  ╠ Descargar musica y videos
-  ╠ ○ ${prefix}version
-  ╚ Conoce la versión de tu bot
+  ╠ ❀ ${prefix}ᴊᴜᴇɢᴏs
+  ╠ *Diviértete con tus amigos :)*
+  ╠ ❀ ${prefix}ᴅᴇsᴍᴇɴᴜ
+  ╠ *Descargar musica y videos*
+  ╠ ❀ ${prefix}ᴠᴇʀsɪᴏɴ
+  ╚ *Conoce la versión de tu bot*
 
-◉ *PARA USAR EL BOT*
-Registrate con el comando ${prefix}daftar y tu nombre
-
-◉ *RESUELVE TUS DUDAS*
+❁ 〘 *PARA USAR EL BOT* 〙
   ║
-  ╠ ○ ${prefix}creador
-  ╚ Dudas o problemas aqui
+  ╚ ❀ ${prefix}ʟᴏɢɪɴ
 
-◉ *CREAR STICKERS*
+❁ 〘 *RESUELVE TUS DUDAS* 〙
   ║
-  ╠ ○ ${prefix}sticker
-  ╠ ○ ${prefix}attp
-  ╠ Mas un texto corto
-  ╠ ○ ${prefix}stickergif
-  ╚ 6 segundos de video
+  ╠ ❀ ${prefix}ᴄʀᴇᴀᴅᴏʀ
+  ╚ *Dudas o problemas aqui*
 
-◉ *CONVERTIDORES*
+❁ 〘 *CREAR STICKERS* 〙
   ║
-  ╠ ○ ${prefix}toimg
-  ╠ De sticker a JPG
-  ╠ ○ ${prefix}tomp3
-  ╚ De video a MP3
+  ╠ ❀ ${prefix}sᴛɪᴄᴋᴇʀ
+  ╠ ❀ ${prefix}ᴀᴛᴛᴘ
+  ╠ *Mas un texto corto*
+  ╠ ❀ ${prefix}sᴛɪᴄᴋᴇʀɢɪғ
+  ╚ *6 segundos de video*
 
-◉ *AUDIO*
+❁ 〘 *CONVERTIDORES* 〙
   ║
-  ╠ ○ ${prefix}idioma
-  ╚ ○ ${prefix}tts es (mas texto)
+  ╠ ❀ ${prefix}ᴛᴏɪᴍɢ
+  ╠ *De sticker a JPG*
+  ╠ ❀ ${prefix}ᴛᴏᴍᴘ3
+  ╚ *De video a MP3*
 
-◉ *TU CONTACTO*
+❁ 〘 *AUDIO* 〙
   ║
-  ╠ ○ ${prefix}wame
-  ╠ Link de Whatsapp
-  ╠ ○ ${prefix}qrcode
-  ╚ Coloca un texto
+  ╠ ❀ ${prefix}ɪᴅɪᴏᴍᴀ
+  ╚ ❀ ${prefix}ᴛᴛs ᴇs (ʏ ᴜɴ ᴛᴇxᴛᴏ ᴄᴏʀᴛᴏ)
 
-◉ *GRUPOS*
+❁ 〘 *TU CONTACTO* 〙
   ║
-  ╠ ○ ${prefix}unir
-  ╠ Unir a una persona al grupo
-  ╠ ○ ${prefix}fgc
-  ╠ Cambiar foto del grupo
-  ╠ ○ ${prefix}ngc
-  ╠ Cambiar nombre del grupo
-  ╠ ○ ${prefix}dgc
-  ╠ Cambiar descripcion del grupo
-  ╠ ○ ${prefix}closegc
-  ╠ Cerrar el grupo solo admins
-  ╠ ○ ${prefix}opengc
-  ╠ Abrir grupo solo admins
-  ╠ ○ ${prefix}kick
-  ╠ Eliminar a un miembro 
-  ╠ ○ ${prefix}promote
-  ╠ Dar admin a un miembro
-  ╠ ○ ${prefix}demote
-  ╠ Quitar el admin
-  ╠ ○ ${prefix}linkgc
-  ╠ Link del grupo
-  ╠ ○ ${prefix}banmenu
-  ╠ Banear a personas el uso del bot
-  ╠ ○ ${prefix}levelmenu
-  ╠ Level para tus grupos
-  ╠ ○ ${prefix}antimenu
-  ╠ Su nombre lo dice todo (antilink)
-  ╠ ○${prefix}welmenu
-  ╠ Comando de bienvenida solo grupos
-  ╠ ○ ${prefix}adminlist
-  ╠ Nombra a los admins del grupo
-  ╠ ○ ${prefix}todos
-  ╚ Nombra a todos los del grupo
+  ╠ ❀ ${prefix}ᴡᴀᴍᴇ
+  ╠ *Link de Whatsapp*
+  ╠ ❀ ${prefix}ϙʀᴄᴏᴅᴇ
+  ╚ *Coloca un texto*
 
-Para usar estas funciones el bot necesita admin
+❁ 〘 *GRUPOS* 〙
+  ║
+  ╠ ❀ ${prefix}ᴜɴɪʀ
+  ╠ *Unir a una persona al grupo*
+  ╠ ❀ ${prefix}ғɢᴄ
+  ╠ *Cambiar foto del grupo*
+  ╠ ❀ ${prefix}ɴɢᴄ
+  ╠ *Cambiar nombre del grupo*
+  ╠ ❀ ${prefix}ɴɢᴄ
+  ╠ *Cambiar descripcion del grupo*
+  ╠ ❀ ${prefix}ᴄʟᴏsᴇɢᴄ
+  ╠ *Cerrar el grupo solo admins*
+  ╠ ❀ ${prefix}ᴏᴘᴇɴɢᴄ
+  ╠ *Abrir grupo solo admins*
+  ╠ ❀ ${prefix}ᴋɪᴄᴋ
+  ╠ *Eliminar a un miembro*
+  ╠ ❀ ${prefix}ᴘʀᴏᴍᴏᴛᴇ
+  ╠ *Dar admin a un miembro*
+  ╠ ❀ ${prefix}ᴅᴇᴍᴏᴛᴇ
+  ╠ *Quitar el admin*
+  ╠ ❀ ${prefix}ʟɪɴᴋɢᴄ
+  ╠ *Link del grupo*
+  ╠ ❀ ${prefix}ʙᴀɴᴍᴇɴᴜ
+  ╠ *Banear a personas el uso del bot*
+  ╠ ❀ ${prefix}ʟᴇᴠᴇʟᴍᴇɴᴜ
+  ╠ *Level para tus grupos*
+  ╠ ❀ ${prefix}ᴀɴᴛɪᴍᴇɴᴜ
+  ╠ *Evitar que envien links*
+  ╠ ❀ ${prefix}ᴡᴇʟᴍᴇɴᴜ
+  ╠ *Comando de bienvenida solo grupos*
+  ╠ ❀ ${prefix}ᴀᴅᴍɪɴʟɪsᴛ
+  ╠ *Nombra a los admins del grupo*
+  ╠ ❀ ${prefix}ᴛᴏᴅᴏs
+  ╚ *Nombra a todos los del grupo*
+
+*Para usar estas funciones el bot necesita admin*
   
-◉ *NSWF* 
+❁ 〘 *NSWF* 〙
   ║
-  ╚ ○ ${prefix}nsfwmenu
+  ╚ ❀ ${prefix}nsfwmenu
 
-Para activar los NSFW coloque el siguiente comando ${prefix}nsfw 1 y para desactivar los NSFW coloque ${prefix}nsfw 0
+*Para activar los NSFW coloque el siguiente comando* ${prefix}nsfw 1 *y para desactivar los NSFW coloque* ${prefix}nsfw 0
 
 
-No te olvides de seguirme en instagram flaco ;)
+*No te olvides de seguirme en instagram flaco ;)*
 
-◉ *CREDITOS*
+❁ 〘 *CREDITOS* 〙
   ║
-  ╚○ Shan (creador original): https://instagram.com/thepavos
+  ╚ ❀ *Shan (creador original): https://instagram.com/thepavos*
 
 𝒃𝒚 𝒊𝒗𝒂𝒏𝒅𝒐𝒖𝒏 
 `
